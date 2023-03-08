@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.form{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vmin;
+    font-weight: 500;
+    width: 90vmin;
+    display: flex;
+    gap: 10vmin;
+    margin: 0 auto;
+}
+input, select{
+    text-align: center;
+    width: 100%;
+    font: inherit;
+}
+input{
+    font-size: 6vmin;
+}
+.wrapper{
+    gap: 2vmin;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
